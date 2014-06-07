@@ -151,6 +151,7 @@ $.widget("mobile.date",{
 	theme: 'a',
 	addMobileStyle: function(){
 		this.calendar.addClass("ui-shadow")
+		this.calendar.addClass("date-center")
 		.find( ".ui-datepicker-calendar" ).addClass( "mobile-enhanced" ).end()
 		.find(".ui-datepicker-calendar a,.ui-datepicker-prev,.ui-datepicker-next").addClass("ui-btn").end()
 		.find(".ui-datepicker-prev").addClass("ui-btn-icon-notext ui-btn-inline ui-corner-all ui-icon-arrow-l ui-shadow").end()
